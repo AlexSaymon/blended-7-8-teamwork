@@ -51,7 +51,7 @@ a {
 .hero {
   background-color: #06071b;
   padding-top: 222px;
-  /* padding-bottom: 143px; */
+  padding-bottom: 143px;
 }
 
 .hero-title {
@@ -61,6 +61,7 @@ a {
   line-height: normal;
   margin-bottom: 12px;
   max-width: 442px;
+  width: 100%;
 }
 .hero-subtitle {
   color: #fff;
@@ -68,6 +69,8 @@ a {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 28px;
+  max-width: 315px;
+  width: 100%;
 }
 .hero-list {
   margin-bottom: 62px;
@@ -75,6 +78,8 @@ a {
 .hero-submenu {
   margin-bottom: 14px;
   padding-left: 38px;
+  max-width: 380px;
+  width: 100%;
 }
 .hero-text {
   color: #fff;
@@ -105,8 +110,6 @@ a {
 }
 
 .hero-image {
-  max-width: 895px;
-  width: 100%;
 }
 
 .hero-content {
@@ -117,5 +120,4 @@ a {
 }
 
 .hero-container {
-  margin: 0 auto;
 }
