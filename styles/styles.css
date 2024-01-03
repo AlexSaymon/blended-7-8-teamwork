@@ -29,7 +29,7 @@ a {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-  max-width: 1296px;
+  max-width: 1312px;
   width: 100%;
 }
 
@@ -50,8 +50,8 @@ a {
 
 .hero {
   background-color: #06071b;
-  padding-top: 243px;
-  padding-bottom: 143px;
+  padding-top: 222px;
+  /* padding-bottom: 143px; */
 }
 
 .hero-title {
@@ -60,6 +60,7 @@ a {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 12px;
+  max-width: 442px;
 }
 .hero-subtitle {
   color: #fff;
@@ -104,4 +105,17 @@ a {
 }
 
 .hero-image {
+  max-width: 895px;
+  width: 100%;
+}
+
+.hero-content {
+}
+
+.hero-wrap {
+  display: flex;
+}
+
+.hero-container {
+  margin: 0 auto;
 }
