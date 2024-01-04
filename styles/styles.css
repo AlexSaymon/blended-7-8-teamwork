@@ -77,9 +77,13 @@ a {
 }
 .hero-submenu {
   margin-bottom: 14px;
-  padding-left: 38px;
+  padding-left: 16px;
   max-width: 380px;
   width: 100%;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
 }
 .hero-text {
   color: #fff;
@@ -94,7 +98,7 @@ a {
   line-height: normal;
   padding: 12px 60px;
   border-radius: 5px;
-  background: linear-gradient(#00c5eb -1.97%, #b544fe 89.43%);
+  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
   border: transparent;
 }
 
@@ -106,10 +110,19 @@ a {
 
 .button:active {
   border-radius: 5px;
-  background: linear-gradient(#00c5eb -1.97%, #b544fe 89.43%);
+  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
 }
 
-.hero-image {
+.hero-image-phone {
+  top: 300px;
+  left: 730px;
+  position: absolute;
+}
+
+.hero-image-decor {
+  top: 235px;
+  left: 330px;
+  position: absolute;
 }
 
 .hero-content {
