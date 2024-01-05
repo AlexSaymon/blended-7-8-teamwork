@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-inline-start: 0;
+}
+
+/* ------- TEAM ------- */
+
+.team {
+  background-color: LINEAR;
+}
+/* study gradient */
+
+.team-container {
+  width: 1280px;
+  width: 100%;
+  padding: 80px 16px;
+  margin: 0 auto;
+}
+
+.team-title {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.team-text {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0px 197px;
+  margin: 0 auto;
+  padding-bottom: 56px;
+}
+
+.team-list {
+  display: flex;
+  gap: 32px;
+}
+
+.team-member {
+  width: calc((100% - 32px * 3) / 4);
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.team-position {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 12px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 12px 0;
+}
+
+.team-card {
+  border-radius: 15px;
+  background-color: rgb(82, 14, 82);
+}
+/* study gradient */
