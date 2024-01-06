@@ -46,6 +46,10 @@ a {
   overflow: hidden;
 } */
 
+img {
+  display: block;
+}
+
 /* ----------------------HERO------------------- */
 
 .hero {
@@ -100,6 +104,7 @@ a {
   border-radius: 5px;
   background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
   border: transparent;
+  cursor: pointer;
 }
 
 .button:hover {
