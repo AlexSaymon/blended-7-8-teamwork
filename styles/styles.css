@@ -48,6 +48,12 @@ img {
   line-height: 1.5;
   text-align: center;
   max-width: 855px;
+  margin-bottom: 56px;
+}
+
+.key-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .key-features-list {
@@ -58,6 +64,7 @@ img {
 .key-features-list-item {
   width: 220px;
   margin-bottom: 54px;
+  list-style-image: url(/images/list-marker.png);
 }
 
 .key-feature-name {
