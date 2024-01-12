@@ -24,7 +24,7 @@ ul {
 /* ------- TEAM ------- */
 
 .team {
-  background-color: LINEAR;
+  background-color: white;
 }
 /* study gradient */
 
@@ -33,6 +33,11 @@ ul {
   width: 100%;
   padding: 80px 16px;
   margin: 0 auto;
+  background-image: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.25) -1.97%,
+    rgba(181, 68, 254, 0.25) 89.43%
+  );
 }
 
 .team-title {
@@ -103,6 +108,20 @@ img {
 
 .team-card {
   border-radius: 15px;
-  background-color: rgb(82, 14, 82);
 }
-/* study gradient */
+
+.david {
+  background-image: url(/images/teamback1.png);
+}
+
+.rachel {
+  background-image: url(/images/icons/teamback2.png);
+}
+
+.samantha {
+  background-image: url(/images/icons/teamback3.png);
+}
+
+.andrew {
+  background-image: url(/images/icons/teamback4.png);
+}
