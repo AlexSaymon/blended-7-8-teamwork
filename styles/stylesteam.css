@@ -26,7 +26,6 @@ ul {
 .team {
   background-color: white;
 }
-/* study gradient */
 
 .team-container {
   width: 1280px;
@@ -68,11 +67,13 @@ ul {
 
 .team-list {
   display: flex;
-  gap: 32px;
 }
 
 .team-member {
-  width: calc((100% - 32px * 3) / 4);
+  display: flex;
+  margin: 0 auto;
+  /* gap: 24px; */
+  width: calc((100% - 96px) / 4);
 }
 
 .team-name {
@@ -106,22 +107,30 @@ img {
   padding: 14px 12px 0;
 }
 
-.team-card {
+.team-card-david {
   border-radius: 15px;
-}
-
-.david {
+  justify-content: center;
+  align-items: center;
   background-image: url(/Users/mac/Documents/GitHub/blended-7-8-teamwork/images/teamback1.png);
 }
 
-.rachel {
+.team-card-rachel {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
   background-image: url(/Users/mac/Documents/GitHub/blended-7-8-teamwork/images/teamback2.png);
 }
 
-.samantha {
+.team-card-samantha {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
   background-image: url(/Users/mac/Documents/GitHub/blended-7-8-teamwork/images/teamback3.png);
 }
 
-.andrew {
+.team-card-andrew {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
   background-image: url(/Users/mac/Documents/GitHub/blended-7-8-teamwork/images/teamback4.png);
 }
