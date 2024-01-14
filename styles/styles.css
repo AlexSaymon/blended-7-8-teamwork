@@ -54,16 +54,55 @@ img {
 /* ---------------------HEADER----------------------- */
 
 .header {
+  position: relative;
+}
+
+.header-container {
+  position: absolute;
+  bottom: 120px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
+  max-width: 1280px;
+  width: 100%;
 }
 .header-nav {
+  display: flex;
+  justify-content: space-between;
 }
 .header-logo {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 19px 0;
 }
 
 .header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-item {
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-link {
+  display: block;
+  padding: 29px 0;
 }
 
 /* ----------------------HERO------------------- */
@@ -150,14 +189,17 @@ img {
 }
 
 .button:hover {
+  background: linear-gradient(#06071b, #06071b) padding-box,
+    linear-gradient(to right, #00c5eb, darkorchid) border-box;
   border-radius: 5px;
-  border: 1px solid var(--LINEAR, #00c5eb);
-  background: #06071b;
+  border: 1.5px solid transparent;
 }
 
 .button:active {
+  background: linear-gradient(#06071b, #06071b) padding-box,
+    linear-gradient(to right, #00c5eb, darkorchid) border-box;
   border-radius: 5px;
-  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border: 1.5px solid transparent;
 }
 
 .hero-content {
@@ -169,7 +211,7 @@ img {
 
 .hero-image-phone {
   right: 80px;
-  top: 80px;
+  top: 10px;
   position: absolute;
   z-index: 999;
 }
@@ -182,7 +224,7 @@ img {
 
 .back-light {
   right: 30px;
-  top: -20px;
+  top: -100px;
   position: absolute;
 }
 
