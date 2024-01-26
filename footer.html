@@ -4,21 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-    <footer>
-        <h2>CONTACT US</h2>
-        <h3>Get in touch with us</h3>
-        <p>Have a question or comment about our app? Get in touch with us using the contact form below and our team will respond shortly.</p>
-<!-- Social media icon in svg-spryte -->
+    <footer class="footer">
+        <div class="container">
+        <h2 class="footer-contact">CONTACT US</h2>
+        <div class="footer-container">
+            <div class="flex-container">
+            <h3 class="footer-get">Get in touch with us</h3>
+        <p class="footer-text">Have a question or comment about our app? Get in touch with us using the contact form below and our team will respond shortly.</p>
+        <ul class="footer-social">
+            <li class="social-item">
+                <a class="icon-item" href="">
+                    <svg class="" width="20" height="20">
+                        <use href="./images/icons.svg#icon-face"></use>
+                    </svg>
+                </a>
+        </li>
+            <li class="social-item">
+                <a class="icon-item" href="">
+                <svg width="20" height="20">
+            <use href="./images/icons.svg#icon-twit"></use>
+        </svg>
+        </a>
+        </li>
+            <li class="social-item">
+                <a class="icon-item" href="">
+                <svg width="20" height="20">
+            <use href="./images/icons.svg#icon-link"></use>
+        </svg>
+        </a>
+        </li>
+        </ul>
         <address>
-            <ul>
-                <li><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
-                <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
+            <ul class="footer-address">
+                <li class="address-item"><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
+                <li class="address-item-mail"><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
             </ul>
         </address>
-        <button type="button">SUBMIT</button>
-        <p>&copy; 2019 GoIteens Template. All Rights Reserved</p>
-    </footer>
+    </div>
+            <form class="form-form">
+            <label>
+                <input class="input-small" type="text" name="name" placeholder="Name"/>
+            </label>
+            <label>
+                <input class="input-small" type="email" name="email" placeholder="Email"/>
+            </label>
+            <label>
+                <textarea class="text-form" name="message" rows="5" placeholder="Message"></textarea>
+            </label>
+            <button class="button-form" type="submit">SUBMIT</button>
+        </form>
+        </div>
+        <p class="footer-end">&copy; 2019 GoIteens Template. All Rights Reserved</p>
+    </div>
+    </footer> 
 </body>
 </html>
