@@ -349,6 +349,7 @@ button {
   padding-top: 40px;
   padding-bottom: 90px;
   background-color: #06071b;
+  background-image: url(../images/video-blur.svg);
 }
 
 .video-title {
@@ -376,22 +377,36 @@ button {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-bottom: 88px;
 }
 
 .video-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-
   border: none;
   background-image: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%),
     linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%),
     linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
 }
 
-.icon-video {
+.icon-video-apple {
   fill: #ffffff;
-  display: flex;
-  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px 13px;
+}
+
+.icon-video-android {
+  fill: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding: 12px 14px;
 }
 
 .video-img {
+  margin: 0 auto;
 }
