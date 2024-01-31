@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MobileApp</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/media.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -168,32 +169,56 @@
         </div>
       </section> -->
       <section class="video-section">
-        <h2 class="video-title">WATCH THE VIDEO</h2>
-        <p class="video-subtitle">
-          Watch the video below to see our mobile app in action. With a
-          user-friendly interface, personalized recommendations, secure
-          transactions, and real-time updates, our app is available for download
-          on both Apple and Android devices and is designed to make your life
-          easier.
-        </p>
-        <ul class="video-list">
-          <li class="video-item">
-            <svg class="icon-video-apple" width="30" height="27">
-              <use href="./images/mbapp-icons.svg#icon-apple"></use>
-            </svg>
-          </li>
-          <li class="video-item">
-            <svg class="icon-video-android" width="32" height="36">
-              <use href="./images/mbapp-icons.svg#icon-android"></use>
-            </svg>
-          </li>
-        </ul>
-
-        <img
-          src="./images/video-phone.png"
-          alt="flying-phone"
-          class="video-img"
-        />
+        <div class="container video-container">
+          <h2 class="video-title">WATCH THE VIDEO</h2>
+          <p class="video-subtitle">
+            Watch the video below to see our mobile app in action. With a
+            user-friendly interface, personalized recommendations, secure
+            transactions, and real-time updates, our app is available for
+            download on both Apple and Android devices and is designed to make
+            your life easier.
+          </p>
+          <ul class="video-list">
+            <li class="video-item">
+              <svg class="icon-video-apple" width="30" height="27">
+                <use href="./images/mbapp-icons.svg#icon-apple"></use>
+              </svg>
+            </li>
+            <li class="video-item">
+              <svg class="icon-video-android" width="32" height="36">
+                <use href="./images/mbapp-icons.svg#icon-android"></use>
+              </svg>
+            </li>
+            <li class="video-item-bottom">
+              <img
+                src="./images/video-phone.png"
+                alt="flying-phone"
+                class="video-img"
+              />
+            </li>
+            <li class="video-item-bottom-blur">
+              <img
+                src="./images/video-blur.png"
+                alt="blur-behind-phone"
+                class="video-blur-img"
+              />
+            </li>
+            <li class="video-item-bottom-smallblur">
+              <img
+                src="./images/video-small-blur.png"
+                alt="small-blur"
+                class="video-blur-img"
+              />
+            </li>
+            <li class="video-item-btsmallblur-deskt">
+              <img
+                src="./images/video-smallblur-deskt.png"
+                alt="small-blur"
+                class="video-blur-img"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>

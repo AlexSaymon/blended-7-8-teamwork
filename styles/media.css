@@ -1,0 +1,91 @@
+@media screen and (min-width: 704px) {
+  .container {
+    max-width: 774px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .video-section {
+    padding-top: 80px;
+    padding-bottom: 338px;
+  }
+
+  .video-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .video-subtitle {
+    width: 704px;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .video-item-bottom {
+    top: 52%;
+    transform: scale(1.3);
+  }
+
+  .video-item-bottom-blur {
+    top: 35%;
+    transform: scale(0.9);
+  }
+
+  .video-item-bottom-smallblur {
+    display: block;
+    position: absolute;
+    top: -2%;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1312px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .video-section {
+    padding-top: 60px;
+    padding-bottom: 98px;
+  }
+
+  .video-title {
+    text-align: left;
+  }
+
+  .video-subtitle {
+    width: 479px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .video-list {
+    justify-content: flex-start;
+  }
+
+  .video-item-bottom {
+    top: 10%;
+    right: 20%;
+    transform: scale(1.7);
+  }
+
+  .video-item-bottom-blur {
+    top: -25%;
+    right: 8%;
+    transform: scale(1.3);
+  }
+
+  .video-item-bottom-smallblur {
+    display: none;
+  }
+
+  .video-item-btsmallblur-deskt {
+    display: block;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+  }
+}

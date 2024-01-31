@@ -347,9 +347,9 @@ button {
 
 .video-section {
   padding-top: 40px;
-  padding-bottom: 90px;
+  padding-bottom: 321px;
   background-color: #06071b;
-  background-image: url(../images/video-blur.svg);
+  position: relative;
 }
 
 .video-title {
@@ -359,6 +359,7 @@ button {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 24px;
+  position: relative;
 }
 
 .video-subtitle {
@@ -377,7 +378,6 @@ button {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin-bottom: 88px;
 }
 
 .video-item {
@@ -407,6 +407,22 @@ button {
   padding: 12px 14px;
 }
 
-.video-img {
-  margin: 0 auto;
+.video-item-bottom {
+  position: absolute;
+  top: 55%;
+  z-index: 999;
+}
+
+.video-item-bottom-blur {
+  position: absolute;
+  top: 35%;
+  transform: rotate(180deg) scale(-75%);
+}
+
+.video-item-bottom-smallblur {
+  display: none;
+}
+
+.video-item-btsmallblur-deskt {
+  display: none;
 }
